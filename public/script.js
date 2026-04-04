@@ -6,6 +6,9 @@ async function conectarConBackend() {
 
         console.log("Respuesta recibida:", datos);
         alert(datos.mensaje); //Debería salir un mensaje de respuesta en pantalla
+        alert(datos.estudiante);
+        alert(datos.universidad);
+        alert(datos.unidad);
     } catch (error) {
         console.error("Error al conectar con el servidor:", error);
     }
